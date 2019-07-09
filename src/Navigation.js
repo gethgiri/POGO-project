@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import {Route} from 'react-router';
 import {BrowserRouter,Switch,HashRouter} from 'react-router-dom';
 import App from './App.js';
-import Display from './display';
-import Dummy from './dummy';
+import Login from './Login';
+import Register from './Register';
+import Forgot from './Forgot';
 
 
 export default class Navigation  extends Component{
@@ -13,7 +14,9 @@ export default class Navigation  extends Component{
                     <Switch>
                           <Route exact path='/' component={App}/>
                           <Route exact path='/home' component={App}/>
-                          <Route exact path='/dummy' component={Dummy}/>
+                          <Route exact path='/Login' component={Login}/>
+                          <Route exact path='/Register' component={Register}/>
+                          <Route exact path='/Forgot' component={Forgot}/>
 
                      </Switch>
                 </BrowserRouter>     
