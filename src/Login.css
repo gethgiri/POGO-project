@@ -47,12 +47,13 @@ font-size: 140%;
  background:linear-gradient(to right, #4cff00 , #1d7909);
 }
 
-/* .errspan {
-        float: right;
-        margin-right: 6px;
-        margin-top: -20px;
-        position: relative;
-        z-index: 2;
-        color: red;
-    }
-*/
+.round-box{
+
+     border-left: outset;
+    border-radius: 7px;
+    border-top: outset;
+    border-width: thin;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-right: 55px;
+}
