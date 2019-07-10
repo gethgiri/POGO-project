@@ -12,7 +12,7 @@ export default class Navigation  extends Component{
                 <BrowserRouter>
                     <Switch>
                           <Route exact path='/' component={Login}/>
-                          <Route exact path='/home' component={Login}/>
+                          <Route exact path='/Login' component={Login}/>
                           <Route exact path='/Register' component={Register}/>
                           <Route exact path='/Forgot' component={Forgot}/>
 

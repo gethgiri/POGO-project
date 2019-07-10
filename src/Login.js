@@ -17,6 +17,14 @@ class Login extends React.Component{
 
      }
   }
+
+Register(){
+
+    this.props.history.push('/Register');
+
+}
+
+
 render(){
   return (
     <div className="container-fluid">
@@ -36,14 +44,14 @@ render(){
             <div className="card">
               <div className="card-body">
                 
-                  <div class="">
+                  <div>
                   <label for="exampleInputEmail1">Username or Email address</label>
                   <div className="input-group">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username or Email" />
                   <i className="offset-11 fas fa-user user-icon"></i>
                   </div>
                   </div>
-                  <div class="">
+                  <div>
                   <label for="exampleInputEmail1">Password</label>
                   <div className="input-group">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter a password" />
@@ -66,7 +74,7 @@ render(){
                 <div className="col-6 text-right ">Forgot Password</div>
                 </div>
                 </div>
-                  <label className="text-center mb-5 font-weight-bold">New to Pogobench? <a className="text-primary">Sign up now</a> </label>
+                  <label className="text-center mb-5 font-weight-bold">New to Pogobench? <a className="text-primary" onClick={this.Register.bind(this)}>Sign up now</a> </label>
 
                
               </div>

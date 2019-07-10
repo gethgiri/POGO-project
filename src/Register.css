@@ -1,0 +1,29 @@
+.Register-area
+{
+  margin-top: 25%;
+}
+.user-icon
+{
+     position: absolute;  
+    color: gray; 
+    margin-top: 9px;
+
+
+}
+
+/*.register-inputs
+{
+
+}
+*/
+
+.round-box{
+
+     border-left: outset;
+    border-radius: 7px;
+    border-top: outset;
+    border-width: thin;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-right: 55px;
+}
