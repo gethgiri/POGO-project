@@ -1,0 +1,58 @@
+
+
+
+.login-area
+{
+    margin-top: 35%;
+
+
+}
+
+.user-icon
+{
+     position: absolute;  
+    color: gray; 
+    margin-top: 9px;
+
+}
+.pass-icon
+{
+    position: absolute;
+        bottom: 31%;
+    padding-left: 64%;
+    color: gray; 
+} 
+
+.logo
+{
+  height: 35px;
+  width: 35px;
+}
+
+.logo-title
+{
+position: relative;
+    top: 34%;
+    padding-bottom: 5%;
+}
+
+.logo-text
+{
+
+font-size: 140%;
+
+}
+.btn-color
+{
+ background:linear-gradient(to right, #4cff00 , #1d7909);
+}
+
+/* .errspan {
+        float: right;
+        margin-right: 6px;
+        margin-top: -20px;
+        position: relative;
+        z-index: 2;
+        color: red;
+    }
+*/
