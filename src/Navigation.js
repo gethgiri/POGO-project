@@ -4,6 +4,7 @@ import {BrowserRouter,Switch,HashRouter} from 'react-router-dom';
 import Login from './Login';
 import Register from './Register';
 import Forgot from './Forgot';
+import NewPassword from './NewPassword';
 
 
 export default class Navigation  extends Component{
@@ -15,6 +16,7 @@ export default class Navigation  extends Component{
                           <Route exact path='/Login' component={Login}/>
                           <Route exact path='/Register' component={Register}/>
                           <Route exact path='/Forgot' component={Forgot}/>
+                          <Route exact path='/NewPassword' component={NewPassword}/>
 
                      </Switch>
                 </BrowserRouter>     

@@ -27,6 +27,11 @@ backToLogin()
 	this.props.history.push('/Login')
 }
 
+newPassword()
+{
+	this.props.history.push('/NewPassword')
+}
+
 
 
 render(){
@@ -61,9 +66,8 @@ render(){
 	                <label  className="backtosign text-primary"><a onClick={this.backToLogin.bind(this)}>Back to sign in</a></label>
 	                </div>
 	                <div className="col-6 text-right text-primary ">
-	                <button className="btn mt-3 mb-3 font-weight-bold text-white btn-block btn-color">LOGIN
-               </button>
-               </div>
+	                <button className="btn mt-3 mb-3 font-weight-bold text-white btn-block btn-color" onClick={this.newPassword.bind(this)}>Request Reset Link               </button>
+                    </div>
 	               </div>
 
 
